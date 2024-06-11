@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*重置样式*/
+*{
+	margin:0;
+	padding:0;
+}
+ul, li, dl, dt, dd {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:#fff;
+}
+a:hover {
+	text-decoration:none;
+}
+img {
+	border:none;
+}
+/*公用样式*/
+body {
+	font-family:'黑体', Helvetica, sans-serif;
+	font-size:12px;
+}
+/*wrap*/
+#wrap {
+	background:#000;
+	height:30px;
+	width:100%;
+	line-height:30px;
+}
+#header {
+	width:742px;
+	margin:0 auto;
+}
+#header a {
+	font-size:16px;
+}
+/*logo*/
+#logo {
+	width:742px;
+	margin:30px auto;
+	overflow:hidden;
+	zoom:1;
+}
+#logo_left {
+	width:283px;
+	float:left;
+}
+#logo_right {
+	width:310px;
+	float:right;
+	margin-top:15px;
+}
+/*nav*/
+#nav {
+	width:742px;
+	margin:0 auto;
+	background:#000;
+	height:35px;
+	line-height:35px;
+}
+#nav ul {
+	overflow:hidden;
+	zoom:1;
+}
+#nav ul li {
+	float:left;
+}
+#nav ul li a {
+	font-size:16px;
+	display:block;
+	padding:0 30px;
+}
+#nav ul li a:hover {
+	background:#aaa1a1;
+}
+/*#wei*/
+#wei {
+	width:742px; 
+	margin:20px auto;background:#000; height:35px; line-height:35px;color:#fff;
+}
+
+#wei dl{overflow:hidden;zoom:1; 
+}
+
+#wei dl dt{overflow:hidden;background:#aaa1a1;width:100px; text-align:center; font-size:18px; float:left;
+}
+
+
+#wei dl dd{text-align:center; font-size:15px; float:right;padding-right:10px;
+}
+
+/*che*/
+
+#che{overflow:hidden;zoom:1;width:742px; margin:15px auto;}
+
+#che_left{ float:left;}
+
+#che_right{ float:right;width:345px;}
+
+#che_right div{background:#000; height:30px;color:#fff; line-height:30px;font-size:12px; font-weight:none;}
+
+#che_right p{ line-height:25px;margin-top:20px;}
+
+
+
+/*che01*/
+
+#che01{overflow:hidden;zoom:1;width:742px; margin:15px auto;}
+
+#che01_left{ float:right;}
+
+#che01_right{ float:left;width:345px;}
+
+#che01_right div{background:#000; height:30px;color:#fff; line-height:30px;font-size:12px; font-weight:none;}
+
+#che01_right p{ line-height:25px;margin-top:20px;}
+
+
+
+
+
+
+#tu{overflow:hidden;zoom:1;width:742px; 
+	margin:20px auto; }
+#tu_left{ float:left;}
+
+#tu_right{ float:right;width:340px;}
+
+
+
+
+/*footer_bg*/
+
+#footer_bg {
+	background:#000;
+	height:40px;
+	width:100%;
+	margin-top:30px;
+	color:#fff;
+	text-align:center;
+	padding-top:5px;
+}
+#footer_bg p {
+	line-height:20px;
+}
